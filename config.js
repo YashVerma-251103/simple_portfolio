@@ -2,63 +2,64 @@
 const PORTFOLIO_CONFIG = {
     // Personal Information
     personal: {
-        name: "Alex Chen",
-        title: "Full Stack Developer & Quantitative Analyst",
-        bio: "Passionate about building scalable applications and quantitative solutions. Experienced in both software development and financial modeling, with expertise in modern web technologies and quantitative analysis.",
-        profileImage: "https://via.placeholder.com/200x200/4F46E5/FFFFFF?text=AC",
+        name: "Yash Verma",
+        title: "Software Engineer & Quantitative Analyst",
+        bio: "Passionate about building scalable systems and quantitative solutions. Experienced in both software development and financial modeling, with expertise in machine learning and quantitative analysis.",
+        profileImage: "https://drive.google.com/file/d/1GJ8twPQdlhaXL_N1OI5Xqt3Okmpru2yE/view?usp=sharing",
         resume: {
-            url: "https://drive.google.com/uc?export=download&id=YOUR_RESUME_ID",
-            filename: "Alex_Chen_Resume.pdf"
+            url: "https://drive.google.com/file/d/1ocmyYDgHL3tEgIGoRxegFDezmMmeuvod/view?usp=sharing",
+            filename: "Yash_Verma_Resume.pdf"
         },
         social: {
-            github: "https://github.com/alexchen",
-            linkedin: "https://linkedin.com/in/alexchen",
-            twitter: "https://twitter.com/alexchen",
-            email: "mailto:alex.chen@example.com"
+            github: "https://github.com/YashVerma-251103",
+            linkedin: "https://www.linkedin.com/in/yash-verm4/",
+            twitter: "https://x.com/251103yv",
+            email: "mailto:yash23610@iiitd.ac.in"
         },
         platforms: {
             competitive: {
                 codeforces: {
-                    url: "https://codeforces.com/profile/alexchen",
-                    username: "alexchen",
-                    rating: "1800+",
+                    url: "https://codeforces.com/profile/yash23610",
+                    username: "yash23610",
+                    rating: "397",
                     icon: "fas fa-code",
                     color: "#FF6B35"
                 },
                 leetcode: {
-                    url: "https://leetcode.com/alexchen",
-                    username: "alexchen",
-                    solved: "500+",
+                    url: "https://leetcode.com/u/Rahills/",
+                    username: "Rahills",
+                    solved: "24",
                     icon: "fas fa-code",
                     color: "#FFA116"
                 },
                 codechef: {
-                    url: "https://www.codechef.com/users/alexchen",
-                    username: "alexchen",
-                    rating: "4★",
+                    url: "https://www.codechef.com/users/cuddly_bowl_61",
+                    username: "cuddly_bowl_61",
+                    // rating: "4★",
+                    rating: "NA",
                     icon: "fas fa-code",
                     color: "#5B4638"
                 }
             },
             dataScience: {
                 kaggle: {
-                    url: "https://www.kaggle.com/alexchen",
-                    username: "alexchen",
-                    rank: "Expert",
+                    url: "https://www.kaggle.com/vemyish",
+                    username: "Yash Verma",
+                    rank: "Student",
                     icon: "fab fa-kaggle",
                     color: "#20BEFF"
                 },
                 numerai: {
-                    url: "https://numer.ai/alexchen",
-                    username: "alexchen",
-                    rank: "Top 100",
+                    url: "https://numer.ai/~vemy",
+                    username: "Yash Verma",
+                    rank: "NA",
                     icon: "fas fa-chart-line",
                     color: "#FF6B6B"
                 },
                 hackerrank: {
-                    url: "https://www.hackerrank.com/alexchen",
-                    username: "alexchen",
-                    badges: "10+",
+                    url: "https://www.hackerrank.com/profile/yash23610",
+                    username: "yash23610",
+                    badges: "Problem Solving",
                     icon: "fab fa-hackerrank",
                     color: "#00EA64"
                 }
