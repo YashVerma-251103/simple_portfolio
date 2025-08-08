@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Developer & Quant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="nav-menu" id="navMenu">
+        <div class="nav-toggle" id="navToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="nav-items">
+            <a href="#introduction" class="nav-item">
+                <i class="fas fa-user"></i>
+                Introduction
+            </a>
+            <a href="#skills" class="nav-item">
+                <i class="fas fa-star"></i>
+                Skills
+            </a>
+            <a href="#tech-stack" class="nav-item">
+                <i class="fas fa-code"></i>
+                Tech Stack
+            </a>
+            <a href="#projects" class="nav-item">
+                <i class="fas fa-project-diagram"></i>
+                Projects
+            </a>
+            <a href="#platforms" class="nav-item">
+                <i class="fas fa-trophy"></i>
+                Platforms
+            </a>
+            <a href="#quant-section" class="nav-item quant-nav" style="display: none;">
+                <i class="fas fa-chart-line"></i>
+                Quant
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Introduction Section -->
+        <section id="introduction" class="section">
+            <div class="container">
+                <div class="intro-content">
+                    <div class="profile-section">
+                        <div class="profile-image">
+                            <img src="https://via.placeholder.com/200x200/4F46E5/FFFFFF?text=ME" alt="Profile" id="profileImage">
+                        </div>
+                        <h1 class="name" id="name">Your Name</h1>
+                        <p class="title" id="title">Full Stack Developer & Quantitative Analyst</p>
+                        <p class="bio" id="bio">Passionate about building scalable applications and quantitative solutions. Experienced in both software development and financial modeling.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" id="github"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link" id="linkedin"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link" id="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" id="email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <div class="resume-download">
+                        <a href="#" class="btn btn-primary" id="resumeDownload">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="skills-grid" id="skillsGrid">
+                    <!-- Skills will be dynamically populated -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Platforms Section -->
+        <section id="platforms" class="section">
+            <div class="container">
+                <h2 class="section-title">Competitive Programming & Data Science</h2>
+                <div class="platforms-content">
+                    <div class="platforms-category">
+                        <h3 class="category-title">Competitive Programming</h3>
+                        <div class="platforms-grid" id="competitivePlatforms">
+                            <!-- Competitive platforms will be dynamically populated -->
+                        </div>
+                    </div>
+                    <div class="platforms-category">
+                        <h3 class="category-title">Data Science & ML</h3>
+                        <div class="platforms-grid" id="dataSciencePlatforms">
+                            <!-- Data science platforms will be dynamically populated -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section id="tech-stack" class="section">
+            <div class="container">
+                <h2 class="section-title">Tech Stack</h2>
+                <div class="tech-categories" id="techCategories">
+                    <!-- Tech categories will be dynamically populated -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-filters" id="projectFilters">
+                    <!-- Project filters will be dynamically populated -->
+                </div>
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Projects will be dynamically populated -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Quant Section (Hidden by default) -->
+        <section id="quant-section" class="section quant-section" style="display: none;">
+            <div class="container">
+                <h2 class="section-title">Quantitative Expertise</h2>
+                <div class="quant-content">
+                    <div class="quant-skills" id="quantSkills">
+                        <!-- Quant skills will be dynamically populated -->
+                    </div>
+                    <div class="quant-projects" id="quantProjects">
+                        <!-- Quant projects will be dynamically populated -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <div class="modal-body" id="modalBody">
+                <!-- Modal content will be dynamically populated -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Quant Popup -->
+    <div class="quant-popup" id="quantPopup">
+        <div class="popup-content">
+            <h3>Want to see my quant side?</h3>
+            <p>Discover my quantitative analysis, algorithmic trading, and ML engineering expertise.</p>
+            <div class="popup-buttons">
+                <button class="btn btn-primary" id="showQuant">Explore Quant</button>
+                <button class="btn btn-secondary" id="dismissQuant">Maybe Later</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loader"></div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="utils.js"></script>
+    <script src="app.js"></script>
+</body>
+</html> 

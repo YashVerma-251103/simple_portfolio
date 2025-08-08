@@ -1,0 +1,40 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "A modern, interactive portfolio website with developer and quantitative analysis themes",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "npx serve .",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "quantitative",
+    "interactive",
+    "responsive",
+    "modern"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/issues"
+  },
+  "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPO_NAME",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 
