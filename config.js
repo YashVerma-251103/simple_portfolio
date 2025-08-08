@@ -52,7 +52,7 @@ const PORTFOLIO_CONFIG = {
                 numerai: {
                     url: "https://numer.ai/~vemy",
                     username: "Yash Verma",
-                    rank: "NA",
+                    rank: "Novice",
                     icon: "fas fa-chart-line",
                     color: "#FF6B6B"
                 },
@@ -69,48 +69,48 @@ const PORTFOLIO_CONFIG = {
 
     // Skills & Expertise
     skills: [
-        {
-            title: "Frontend Development",
-            description: "Expert in modern JavaScript frameworks, responsive design, and user experience optimization.",
-            level: 95,
-            levelText: "Expert",
-            icon: "fas fa-code"
-        },
+        // {
+        //     title: "Frontend Development",
+        //     description: "Expert in modern JavaScript frameworks, responsive design, and user experience optimization.",
+        //     level: 95,
+        //     levelText: "Expert",
+        //     icon: "fas fa-code"
+        // },
         {
             title: "Backend Development",
-            description: "Proficient in server-side development, API design, and database management.",
-            level: 90,
-            levelText: "Advanced",
+            description: "Proficient in server-side development, API design, and database management. Experienced in building scalable and efficient backend systems.",
+            level: 65,
+            levelText: "Intermediate",
             icon: "fas fa-server"
         },
         {
             title: "Data Science & ML",
             description: "Experience in machine learning, statistical analysis, and data visualization.",
-            level: 85,
-            levelText: "Advanced",
+            level: 65,
+            levelText: "Intermediate",
             icon: "fas fa-brain"
         },
         {
             title: "Quantitative Analysis",
             description: "Specialized in financial modeling, risk management, and algorithmic trading strategies.",
-            level: 88,
-            levelText: "Advanced",
+            level: 65,
+            levelText: "Intermediate",
             icon: "fas fa-chart-line"
         },
         {
             title: "DevOps & Cloud",
-            description: "Experience with CI/CD pipelines, cloud infrastructure, and deployment automation.",
-            level: 80,
+            description: "Learning with CI/CD pipelines, cloud infrastructure, and deployment automation.",
+            level: 65,
             levelText: "Intermediate",
             icon: "fas fa-cloud"
         },
-        {
-            title: "Project Management",
-            description: "Skilled in agile methodologies, team leadership, and technical project planning.",
-            level: 85,
-            levelText: "Advanced",
-            icon: "fas fa-tasks"
-        }
+        // {
+        //     title: "Project Management",
+        //     description: "Skilled in agile methodologies, team leadership, and technical project planning.",
+        //     level: 85,
+        //     levelText: "Advanced",
+        //     icon: "fas fa-tasks"
+        // }
     ],
 
     // Tech Stack Categories
@@ -118,27 +118,29 @@ const PORTFOLIO_CONFIG = {
         {
             title: "Programming Languages",
             icon: "fas fa-code",
-            technologies: ["JavaScript", "TypeScript", "Python", "Java", "C++", "R", "SQL"]
+            technologies: ["Python", "Java", "C/C++", "SQL"]
         },
-        {
-            title: "Frontend Frameworks",
-            icon: "fas fa-desktop",
-            technologies: ["React", "Vue.js", "Angular", "Next.js", "Tailwind CSS", "Sass"]
-        },
+        // {
+        //     title: "Frontend Frameworks",
+        //     icon: "fas fa-desktop",
+        //     technologies: ["React", "Vue.js", "Angular", "Next.js", "Tailwind CSS", "Sass"]
+        // },
         {
             title: "Backend & APIs",
             icon: "fas fa-server",
-            technologies: ["Node.js", "Express", "Django", "FastAPI", "GraphQL", "REST APIs"]
+            // technologies: ["Node.js", "Express", "Django", "FastAPI", "GraphQL", "REST APIs", "Flask"]
+            technologies: ["REST APIs", "Flask"]
         },
         {
             title: "Databases",
             icon: "fas fa-database",
-            technologies: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Firebase"]
+            technologies: ["PostgreSQL", "MySQL","SQLite","Redis", "MongoDB"]
         },
         {
             title: "Cloud & DevOps",
             icon: "fas fa-cloud",
-            technologies: ["AWS", "Docker", "Kubernetes", "GitHub Actions", "Vercel", "Netlify"]
+            // technologies: ["AWS", "Docker", "Kubernetes", "GitHub Actions", "Vercel", "Netlify"]
+            technologies: ["AWS", "Docker", "Vercel"]
         },
         {
             title: "Data Science",
